@@ -142,6 +142,11 @@
     "title": "Researcher at a human rights organizations",
     "image": "anna.svg"
   },
+  "/research/arazu": {
+    "path": "/research/arazu",
+    "title": "Project Manager",
+    "image": "UseCases/Arazu_website.png"
+  },
   "/research/darius": {
     "path": "/research/darius",
     "title": "Freelance Videographer",
@@ -160,10 +165,20 @@
     "title": "Archivist at a human rights organization",
     "image": "kai.svg"
   },
+  "/research/mohamed": {
+    "path": "/research/mohamed",
+    "title": "Independent journalist and activist",
+    "image": "UseCases/Mohamed_website.png"
+  },
   "/research/nadia": {
     "path": "/research/nadia",
     "title": "Documenter at KHPG partner organization",
     "image": "UseCases/Nadia.svg"
+  },
+  "/research/noor": {
+    "path": "/research/noor",
+    "title": "Researcher",
+    "image": "UseCases/Noor_website.png"
   },
   "/research/oleksandra": {
     "path": "/research/oleksandra",

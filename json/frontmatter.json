@@ -161,7 +161,7 @@
   },
   "/research/arazu": {
     "path": "/research/arazu",
-    "title": "Project Manager",
+    "title": "Project Manager at INSM-Iraq",
     "image": "UseCases/Arazu_website.png"
   },
   "/research/darius": {
@@ -184,7 +184,7 @@
   },
   "/research/leila": {
     "path": "/research/leila",
-    "title": "Investigative Journalist",
+    "title": "Investigative Journalist with a local Sudanese media organization",
     "image": "UseCases/Leila.png"
   },
   "/research/mohamed": {

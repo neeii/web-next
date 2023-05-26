@@ -91,7 +91,7 @@ export const RegionsSection: FC<PropsWithChildren> = ({ children }) => {
         <RegionItem
           image={easternEurope}
           name="Eastern Europe"
-          url="/programs/our-users/easter-neurope"
+          url="/programs/our-users/eastern-europe"
         />
         <RegionItem
           image={mena}

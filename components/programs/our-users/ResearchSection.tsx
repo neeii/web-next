@@ -1,18 +1,13 @@
 import { FC, PropsWithChildren } from "react";
-import { Box, Stack } from "@mui/material";
-import { colors, breakpoints } from "styles/theme";
+import { Box } from "@mui/material";
+import { colors, breakpoints, typography } from "styles/theme";
 import { PageSection } from "components/common/PageSection";
-import { UseCaseItem } from "components/research/UseCaseItem";
+// import { ResearchItem } from "components/programs/our-users/ResearchItem";
 
-type UseCasesSectionProps = PropsWithChildren<{
-  pages: any[];
-}>;
-
-export const UseCasesSection: FC<UseCasesSectionProps> = ({
-  pages,
-  children,
-}) => {
+export const ResearchSection: FC<PropsWithChildren> = ({ children }) => {
+  // const filteredPages = pages.filter((page) => !!page.name);
   const { white } = colors;
+  const { bodyLarge } = typography;
   const { ps, pl, ts, tl, ds, dl } = breakpoints;
 
   return (
@@ -47,12 +42,12 @@ export const UseCasesSection: FC<UseCasesSectionProps> = ({
         },
       }}
     >
-      <Box>{children}</Box>
-      <Stack spacing={6} sx={{ a: { textDecoration: "none" } }}>
-        {pages.map((page) => (
-          <UseCaseItem key={page.path} {...page} />
+      <Box sx={{ pt: 4, pb: 4, "> p": bodyLarge }}>{children}</Box>
+      {/*       <Stack spacing={6} sx={{ a: { textDecoration: "none" } }}>
+        {filteredPages.map((page) => (
+          <ResearchItem key={page.path} {...page} />
         ))}
-      </Stack>
+      </Stack> */}
     </PageSection>
   );
 };

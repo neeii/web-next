@@ -3,7 +3,7 @@ import { Box, Grid } from "@mui/material";
 import { typography, colors, breakpoints } from "styles/theme";
 import { PageSection } from "components/common/PageSection";
 import { HorizontalCarousel } from "components/common/HorizontalCarousel";
-import { WhoItem } from "components/home/WhoItem";
+import { PersonaItem } from "components/common/PersonaItem";
 
 type WhoSectionProps = PropsWithChildren<{
   pages: any[];
@@ -14,6 +14,7 @@ export const WhoSection: FC<WhoSectionProps> = ({ pages, children }) => {
   const { white, turquoise } = colors;
   const { ps, ts } = breakpoints;
   const [title, ...description] = children as any[];
+  const filteredPages = pages.filter((page) => !!page.quote);
 
   return (
     <PageSection backgroundColor={white}>
@@ -85,8 +86,8 @@ export const WhoSection: FC<WhoSectionProps> = ({ pages, children }) => {
             1024: { slidesPerView: 1.5, spaceBetween: 40, visibleCount: 1.5 },
           }}
         >
-          {pages.map((page) => (
-            <WhoItem key={page.path} {...page} />
+          {filteredPages.map((page) => (
+            <PersonaItem key={page.path} {...page} />
           ))}
         </HorizontalCarousel>
       </Box>

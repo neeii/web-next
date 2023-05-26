@@ -3,7 +3,7 @@ import Image from "next/legacy/image";
 import { Box, Grid } from "@mui/material";
 import { colors, breakpoints, typography, loader } from "styles/theme";
 import { PageSection } from "components/common/PageSection";
-import bullhorn from "public/images/AboutUs/Our-Mission.png";
+import handPhone from "public/images/AboutUs/Why-this-work-matter.png";
 
 export const MissionSection: FC<PropsWithChildren> = ({ children }) => {
   const { white } = colors;
@@ -11,7 +11,7 @@ export const MissionSection: FC<PropsWithChildren> = ({ children }) => {
   const { ps, tl } = breakpoints;
 
   return (
-    <PageSection backgroundColor={white}>
+    <PageSection backgroundColor={white} sx={{ pb: "0 !important" }}>
       <Grid item container sx={{ flexDirection: "row-reverse" }}>
         <Grid
           item
@@ -25,9 +25,12 @@ export const MissionSection: FC<PropsWithChildren> = ({ children }) => {
             sx={{
               margin: "0 auto",
               textAlign: "center",
+              mb: 0,
+              [ps]: { mb: 4 },
+              [tl]: { mb: 0 },
             }}
           >
-            <Image src={bullhorn} alt="" loader={loader} />
+            <Image src={handPhone} alt="" loader={loader} />
           </Box>
         </Grid>
         <Grid

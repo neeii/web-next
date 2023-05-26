@@ -38,9 +38,10 @@ export const TopNav = () => {
     width: "100%",
     display: "block",
     color: white,
-    py: 2,
+    py: 1,
     px: 4,
-    m: 0,
+    my: 1,
+    mx: 0,
     textDecoration: "none",
     "&:hover": {
       color: turquoise,
@@ -198,8 +199,17 @@ export const TopNav = () => {
                           </Link>
                         </Grid>
                         <Grid item>
-                          <Link href="/research">
-                            <Box sx={menuItemProps}>{t("research")}</Box>
+                          <Link href="/programs">
+                            <Box sx={menuItemProps}>{t("programs")}</Box>
+                          </Link>
+                        </Grid>
+                        <Grid item>
+                          <Link href="/programs/our-users">
+                            <Box
+                              sx={{ ...menuItemProps, ml: 3, mt: -1, mb: 0 }}
+                            >
+                              {t("ourUsers")}
+                            </Box>
                           </Link>
                         </Grid>
                       </Grid>

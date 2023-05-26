@@ -149,68 +149,8 @@
   "/privacy": {
     "path": "/privacy"
   },
-  "/research/amal": {
-    "path": "/research/amal",
-    "title": "Investigator at a local Sudanese human rights organization",
-    "image": "UseCases/Amal.png"
-  },
-  "/research/anna": {
-    "path": "/research/anna",
-    "title": "Researcher at a human rights organizations",
-    "image": "anna.svg"
-  },
-  "/research/arazu": {
-    "path": "/research/arazu",
-    "title": "Project Manager at INSM-Iraq",
-    "image": "UseCases/Arazu_website.png"
-  },
-  "/research/darius": {
-    "path": "/research/darius",
-    "title": "Freelance Videographer",
-    "image": "darius.svg"
-  },
-  "/research": {
-    "path": "/research"
-  },
-  "/research/ivan": {
-    "path": "/research/ivan",
-    "title": "Project Coordinator at KHPG",
-    "image": "UseCases/Ivan.svg"
-  },
-  "/research/kai": {
-    "path": "/research/kai",
-    "title": "Archivist at a human rights organization",
-    "image": "kai.svg"
-  },
-  "/research/leila": {
-    "path": "/research/leila",
-    "title": "Investigative Journalist with a local Sudanese media organization",
-    "image": "UseCases/Leila.png"
-  },
-  "/research/mohamed": {
-    "path": "/research/mohamed",
-    "title": "Independent journalist and activist in Iraq",
-    "image": "UseCases/Mohamed_website.png"
-  },
-  "/research/nadia": {
-    "path": "/research/nadia",
-    "title": "Documenter at KHPG partner organization",
-    "image": "UseCases/Nadia.svg"
-  },
-  "/research/nasser": {
-    "path": "/research/nasser",
-    "title": "Media Project Manager at a local Sudanese media organization",
-    "image": "UseCases/Nasser.png"
-  },
-  "/research/noor": {
-    "path": "/research/noor",
-    "title": "Researcher in Iraq",
-    "image": "UseCases/Noor_website.png"
-  },
-  "/research/oleksandra": {
-    "path": "/research/oleksandra",
-    "title": "Documenter and database manager at KHPG",
-    "image": "UseCases/Oleksandra.svg"
+  "/programs": {
+    "path": "/programs"
   },
   "/save": {
     "path": "/save"

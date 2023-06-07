@@ -349,7 +349,7 @@ export const Footer: FC = () => {
                 <IconLink
                   image={linkedin}
                   size={socialIconSize}
-                  url="https://linkedin.com/company/open-archive"
+                  url="https://linkedin.com/company/open-archive" 
                   alt="LinkedIn logo"
                 />
               </Grid>

@@ -7,7 +7,7 @@ import contactUs from "public/images/ContactUs/contact-us-1.png";
 export const ContactSection: FC<PropsWithChildren> = ({ children }) => {
   const { white } = colors;
   const { outlinedButton, bodyLarge } = typography;
-  const { ps, tl } = breakpoints;
+  const { ps, pl, ts, tl, ds, dl } = breakpoints;
   const rest = (children as any[]).slice(0, -2);
   const last = (children as any[]).slice(-2);
 
@@ -61,8 +61,12 @@ export const ContactSection: FC<PropsWithChildren> = ({ children }) => {
           >
             {rest}
           </Box>
-          <Box sx={{ overflow: "hidden", mt: -4, mb: 4 }}>
-            <Box sx={{ mt: "-90px", ml: "-234px" }}>
+          <Box sx={{ overflow: "hidden", mt: -2, mb: 4 }}>
+            <Box
+              sx={{
+                mt: "-90px",
+              }}
+            >
               <iframe
                 title="contact-us"
                 src="https://embeds.beehiiv.com/21fa00df-9f9e-43c6-bfb7-124139615554"
@@ -71,15 +75,15 @@ export const ContactSection: FC<PropsWithChildren> = ({ children }) => {
                 frameBorder="0"
                 scrolling="no"
                 style={{
-                  margin: 0,
-                  color: "black",
+                  padding: 6,
+                  backgroundColor: "transparent",
                 }}
               />
             </Box>
           </Box>
           <Box
             sx={{
-              em: { ...bodyLarge, fontStyle: "italic" },
+              em: { ...bodyLarge, fontStyle: "italic", textAlign: "center" },
               a: {
                 ...outlinedButton,
                 mr: 2,

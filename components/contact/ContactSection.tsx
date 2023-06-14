@@ -8,8 +8,8 @@ export const ContactSection: FC<PropsWithChildren> = ({ children }) => {
   const { white } = colors;
   const { outlinedButton, bodyLarge } = typography;
   const { ps, tl } = breakpoints;
-  const rest = (children as any[]).slice(0, -1);
-  const last = (children as any[]).slice(-1);
+  const rest = (children as any[]).slice(0, -2);
+  const last = (children as any[]).slice(-2);
 
   return (
     <BaseHeaderSection backgroundColor={white}>
@@ -61,10 +61,28 @@ export const ContactSection: FC<PropsWithChildren> = ({ children }) => {
           >
             {rest}
           </Box>
+          <Box sx={{ overflow: "hidden", mt: -4, mb: 4 }}>
+            <Box sx={{ mt: "-90px", ml: "-234px" }}>
+              <iframe
+                title="contact-us"
+                src="https://embeds.beehiiv.com/21fa00df-9f9e-43c6-bfb7-124139615554"
+                data-test-id="beehiiv-embed"
+                width="100%"
+                frameBorder="0"
+                scrolling="no"
+                style={{
+                  margin: 0,
+                  color: "black",
+                }}
+              />
+            </Box>
+          </Box>
           <Box
             sx={{
+              em: { ...bodyLarge, fontStyle: "italic" },
               a: {
                 ...outlinedButton,
+                mr: 2,
                 ".mdx-link": { textDecoration: "none" },
               },
             }}

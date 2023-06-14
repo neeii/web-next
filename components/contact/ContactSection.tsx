@@ -7,7 +7,7 @@ import contactUs from "public/images/ContactUs/contact-us-1.png";
 export const ContactSection: FC<PropsWithChildren> = ({ children }) => {
   const { white } = colors;
   const { outlinedButton, bodyLarge } = typography;
-  const { ps, pl, ts, tl, ds, dl } = breakpoints;
+  const { ps, tl } = breakpoints;
   const rest = (children as any[]).slice(0, -2);
   const last = (children as any[]).slice(-2);
 

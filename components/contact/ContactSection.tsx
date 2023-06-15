@@ -61,28 +61,24 @@ export const ContactSection: FC<PropsWithChildren> = ({ children }) => {
           >
             {rest}
           </Box>
-          <Box sx={{ overflow: "hidden", mt: -2, mb: 4 }}>
-            <Box
-              sx={{
-                mt: "-90px",
+          <Box sx={{ mt: -1, backgroundColor: "transparent" }}>
+            <iframe
+              title="contact-us"
+              src="https://embeds.beehiiv.com/21fa00df-9f9e-43c6-bfb7-124139615554?slim=true"
+              data-test-id="beehiiv-embed"
+              width="100%"
+              frameBorder="0"
+              scrolling="no"
+              style={{
+                padding: 4,
+                backgroundColor: "transparent",
               }}
-            >
-              <iframe
-                title="contact-us"
-                src="https://embeds.beehiiv.com/21fa00df-9f9e-43c6-bfb7-124139615554"
-                data-test-id="beehiiv-embed"
-                width="100%"
-                frameBorder="0"
-                scrolling="no"
-                style={{
-                  padding: 6,
-                  backgroundColor: "transparent",
-                }}
-              />
-            </Box>
+            />
           </Box>
           <Box
             sx={{
+              backgroundColor: "transparent",
+              mt: -6,
               em: { ...bodyLarge, fontStyle: "italic", textAlign: "center" },
               a: {
                 ...outlinedButton,

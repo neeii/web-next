@@ -56,6 +56,11 @@
   "/jobs": {
     "path": "/jobs"
   },
+  "/jobs/program-coordinator": {
+    "path": "/jobs/program-coordinator",
+    "title": "Program Coordinator",
+    "description": "To guide our operational and programmatic success, we are seeking a Program Coordinator who will support our day to day operations, assist with grant seeking, and coordinate our Decentralized Archivist Community (DAC) partnerships and other programmatic initiatives."
+  },
   "/news/IraqiNetwork-partnership": {
     "path": "/news/IraqiNetwork-partnership",
     "title": "OpenArchive Partners with the Iraqi Network for Social Media",

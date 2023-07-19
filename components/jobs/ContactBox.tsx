@@ -9,8 +9,18 @@ export const ContactBox: FC<PropsWithChildren> = ({ children }) => {
   const router = useRouter();
   const { lightTurquoise, lightGrey, white, black } = colors;
   const { bodyLarge } = typography;
-  const [first, title, ...description] = children as any[];
-  const url = getURL(first);
+
+  let first = null;
+  let title = null;
+  let description = null;
+  let url = null;
+
+  try {
+    [first, title, ...description] = children as any[];
+    url = getURL(first);
+  } catch (e) {
+    title = children;
+  }
 
   return (
     <Box
@@ -32,13 +42,15 @@ export const ContactBox: FC<PropsWithChildren> = ({ children }) => {
       >
         <Box>{title}</Box>
         <Box sx={{ "> p": bodyLarge }}>{description}</Box>
-        <FilledButton
-          backgroundColor={white}
-          textColor={black}
-          onClick={() => router.push(url)}
-        >
-          Submit
-        </FilledButton>
+        {url && (
+          <FilledButton
+            backgroundColor={white}
+            textColor={black}
+            onClick={() => router.push(url)}
+          >
+            Submit
+          </FilledButton>
+        )}
       </Box>
     </Box>
   );

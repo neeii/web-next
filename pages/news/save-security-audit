@@ -1,6 +1,6 @@
 ---
 title: OTF & Trail of Bits’ Independent Security Audit of Save
-description: At OpenArchive, we strive to make our Save app as safe as possible. Through support from the Open Tech Fund's (OTF) Red Team Lab, we successfully completed a third-party security audit conducted by Trail of Bits
+description: Through support from the Open Tech Fund's (OTF) Red Team Lab, OpenArchive successfully completed a third-party security audit conducted by Trail of Bits.
 date: 07/25/23
 category: News
 image: save-security-audit.png
@@ -25,7 +25,7 @@ At OpenArchive, we strive to make our **_Save_** app as safe as possible. Throug
 
 At OpenArchive, we strive to make our Save app as safe as possible. Through support from the Open Tech Fund's (OTF) Red Team Lab, we successfully completed a third-party security audit conducted by Trail of Bits. Please find the [OTF report here](https://www.opentech.fund/results/security-safety-audits/openarchive-save-android-ios/). We are pleased with the results and hope our stakeholders can take comfort in knowing our tool is secure. 
 
-Outcomes: Our tech team was able to resolve all security vulnerabilities identified in the audit. However, due to architectural constraints and third-party dependencies, we were only able to partially resolve some issues. Below, we map our plan to address outstanding issues. 
+Outcomes: Our tech team was able to resolve all high-severity security vulnerabilities identified in the audit. However, due to architectural constraints and third-party dependencies, we were only able to partially resolve some issues. Below, we map our plan to address outstanding issues. 
 
 [**_Save_** iOS](https://public.opentech.fund/documents/OpenArchive_Save_iOS_Summary_Report_-_Fixes_and_Conclusion.pdf)
 

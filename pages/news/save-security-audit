@@ -1,0 +1,50 @@
+---
+title: OTF & Trail of Bits’ Independent Security Audit of Save
+description: At OpenArchive, we strive to make our Save app as safe as possible. Through support from the Open Tech Fund's (OTF) Red Team Lab, we successfully completed a third-party security audit conducted by Trail of Bits
+date: 07/25/23
+category: News
+image: save-security-audit.png
+---
+
+import { ArticleHeaderSection } from "components/news/ArticleHeaderSection";
+import { ContentSection } from "components/news/ContentSection";
+
+<ArticleHeaderSection>
+![](save-security-audit.png)
+
+{frontmatter.date}
+
+{frontmatter.category}
+
+## OTF & Trail of Bits’ Independent Security Audit of **_Save_**
+
+At OpenArchive, we strive to make our **_Save_** app as safe as possible. Through support from the Open Tech Fund's (OTF) Red Team Lab, we successfully completed a third-party security audit conducted by Trail of Bits
+
+</ArticleHeaderSection>
+<ContentSection>
+
+At OpenArchive, we strive to make our Save app as safe as possible. Through support from the Open Tech Fund's (OTF) Red Team Lab, we successfully completed a third-party security audit conducted by Trail of Bits. Please find the [OTF report here](https://www.opentech.fund/results/security-safety-audits/openarchive-save-android-ios/). We are pleased with the results and hope our stakeholders can take comfort in knowing our tool is secure. 
+
+Outcomes: Our tech team was able to resolve all security vulnerabilities identified in the audit. However, due to architectural constraints and third-party dependencies, we were only able to partially resolve some issues. Below, we map our plan to address outstanding issues. 
+
+[**_Save_** iOS](https://public.opentech.fund/documents/OpenArchive_Save_iOS_Summary_Report_-_Fixes_and_Conclusion.pdf)
+
+Trail of Bits finished their initial audit of the iOS version of the **_Save_** app in Winter of 2023 and then reviewed the fixes and mitigations implemented by the OpenArchive team to resolve the issues identified in their initial audit report. 
+
+[**_Save_** Android](https://public.opentech.fund/documents/OpenArchive_Save_Android_Summary_Report_-_Fixes_and_Conclusion.pdf)
+
+Trail of Bits finished their initial audit of the Android version of the **_Save_** app this Spring 2023 and then reviewed the fixes and mitigations implemented by the OpenArchive team to resolve the issues identified in their initial audit report. We have addressed and solved most of the issues identified by Trail of Bits.
+
+There are some issues that are either partially resolved or not resolved yet. These issues either do not represent a threat to **_Save_** users, are not directly exploitable, or are dependent on third-party libraries that we use.
+
+OpenArchive’s team addressed and solved most of the issues identified by Trail of Bits. There are some issues that are either partially resolved or not resolved yet. These issues either do not represent a threat to **_Save_** users, are not directly exploitable, or are dependent on third-party libraries that we use.
+
+**Further information**
+
+If you are interested in the individual issues addressed in the report and how we solved them you can read [OTF's Report here](https://www.opentech.fund/results/security-safety-audits/openarchive-save-android-ios/). 
+
+The Trail of Bits audits are on GitHub for [Android](https://github.com/trailofbits/publications/blob/master/reviews/2022-10-openarchivesaveandroid-securityreview.pdf) and for [iOS](https://github.com/trailofbits/publications/blob/master/reviews/2022-12-openarchivesaveios-securityreview.pdf).
+
+We have also published [our own detailed summary](https://github.com/OpenArchive/security-audits/blob/main/trail-of-bits-2023.md) of partially or unresolved issues and how we addressed or will address them.
+
+</ContentSection>

@@ -154,6 +154,12 @@
     "description": "OpenArchive launches new app Save to help journalists and human rights advocates protect and preserve highly sensitive digital media.",
     "image": "OpenArchive-launches-Save.png"
   },
+  "/news/save-security-audit": {
+    "path": "/news/save-security-audit",
+    "title": "OTF & Trail of Bits’ Independent Security Audit of Save",
+    "description": "Through support from the Open Tech Fund's (OTF) Red Team Lab, OpenArchive successfully completed a third-party security audit conducted by Trail of Bits.",
+    "image": "save-security-audit.png"
+  },
   "/partner": {
     "path": "/partner"
   },

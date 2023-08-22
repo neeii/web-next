@@ -119,6 +119,12 @@
     "description": "The OpenArchive team is proud to announce the launch of Save, our new mobile application that integrates privacy-enhancing technologies with digital media preservation to make media findable, verifiable, and archived for long-term access.",
     "image": "Introducing-Save.png"
   },
+  "/news/memo-from-Quito": {
+    "path": "/news/memo-from-Quito",
+    "title": "Memo from Quito: Understanding the Needs of Ecuador’s Documenter Communities",
+    "description": "abc",
+    "image": "SudaneseSurvey/1.png"
+  },
   "/news/memo-from-baghdad": {
     "path": "/news/memo-from-baghdad",
     "title": "Memo from Baghdad: Identifying and Addressing the Needs of Iraqi Documenters",

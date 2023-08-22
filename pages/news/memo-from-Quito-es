@@ -3,7 +3,7 @@ title: "Memo desde Quito: Entendiendo las necesidades de las comunidades documen
 description: abc
 date: 08/19/23
 category: Blogs
-image: SudaneseSurvey/1.png
+image: ALDEA_Needs_Assessment.png
 region: latam
 country: ecuador
 ---
@@ -13,7 +13,7 @@ import { ContentSection } from "components/news/ContentSection";
 
 <ArticleHeaderSection>
 
-![](SudaneseSurvey/1.png)
+![](ALDEA_Needs_Assessment.png)
 
 {frontmatter.date}
 

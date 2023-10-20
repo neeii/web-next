@@ -109,6 +109,12 @@
     "description": "OpenArchive receives Grant from FFDW to Help Secure, Share, and Store Critical Human Rights DataInformation on the Decentralized Web",
     "image": "FFDW-and-OpenArchive-Collaborate-to-Deploy-Decentralized-Archive-for-Human-Rights-Data.png"
   },
+  "/news/global-encryption-day-23": {
+    "path": "/news/global-encryption-day-23",
+    "title": "Preserving the Past, Protecting the Future: The Vital Role of Encryption in Media Preservation",
+    "description": "In today's digital age, smartphones are a powerful tool for capturing and preserving daily life events. They are especially valuable for journalists, activists, or eyewitnesses seeking to bring justice and awareness to the human rights violations they are documenting.",
+    "image": "GlobalEncryptionDay23/1.png"
+  },
   "/news/hello-mobilized-world": {
     "path": "/news/hello-mobilized-world",
     "title": "Why OpenArchive?",

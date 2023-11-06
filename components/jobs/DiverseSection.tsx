@@ -60,9 +60,9 @@ export const DiverseSection: FC<DiverseSectionProps> = ({
             OpenArchive is committed to creating a diverse environment and is
             proud to be an equal opportunity employer. All qualified applicants
             will receive consideration for employment without regard to race,
-            color, religion, gender, gender identity or expression, sexual
-            orientation, national origin, genetics, disability, age, or veteran
-            status.
+            color, religion, gender identity or expression, sexual
+            orientation, national origin, genetics, disability, age, veteran
+            status, etc.
           </Box>
         </Grid>
       </Grid>

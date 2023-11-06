@@ -53,11 +53,6 @@
     "description": "Anyone with a phone can expose injustice. OpenArchive helps history's first responders safely store, verify, and share critical evidence.",
     "image": "main-page-1.png"
   },
-  "/jobs/android-developer": {
-    "path": "/jobs/android-developer",
-    "title": "Android Developer",
-    "description": "To maintain and improve the Save app"
-  },
   "/jobs": {
     "path": "/jobs"
   },

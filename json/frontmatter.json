@@ -61,6 +61,11 @@
   "/jobs": {
     "path": "/jobs"
   },
+  "/jobs/lead-developer": {
+    "path": "/jobs/lead-developer",
+    "title": "Lead Mobile Developer",
+    "description": "OpenArchive seeks a Lead Mobile Developer to contribute code and manage our overall technical effort, including overseeing the implementation and delivery of our app ***Save***’s development process and software."
+  },
   "/news/IraqiNetwork-partnership": {
     "path": "/news/IraqiNetwork-partnership",
     "title": "OpenArchive Partners with the Iraqi Network for Social Media",

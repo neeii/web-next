@@ -87,8 +87,8 @@ export const DonateOverlay: FC = () => {
           }}
         >
           <Typography sx={{ ...h3, mt: 4 }}>
-            History's first responders put their lives on the line every day to
-            document injustices
+            History&apos;s first responders put their lives on the line every
+            day to document injustices
           </Typography>
           <Typography sx={bodyLarge}>
             Help us protect them and their crucial documentation in a world
@@ -97,8 +97,8 @@ export const DonateOverlay: FC = () => {
           <Typography
             sx={{ ...bodyLarge, marginTop: "20px", fontWeight: "bold" }}
           >
-            Support OpenArchive's efforts to preserve truth to power by making a
-            tax-deductible donation.
+            Support OpenArchive&apos;s efforts to preserve truth to power by
+            making a tax-deductible donation.
           </Typography>
           <Typography sx={{ ...bodyLarge, marginTop: "20px" }}>
             Our work is critical, ongoing and solely funded by grants and

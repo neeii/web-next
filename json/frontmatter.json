@@ -148,6 +148,18 @@
     "description": "In a moment when free speech is under direct threat in Iraq, our recent needs assessment with the Iraqi Network for Social Media (INSM-Iraq) offers an insightful glimpse into the realities, challenges, and opportunities that Iraq human rights defenders are facing as they document and archive evidence of injustice.",
     "image": "INSMBlog/1.png"
   },
+  "/news/memo-from-havana-es": {
+    "path": "/news/memo-from-havana-es",
+    "title": "Memo desde Havana: Examinando las necesidades de las comunidades de documentalistas trabajando en Cuba",
+    "description": "Quienes defienden los derechos humanos en Cuba enfrentan amenazas crecientes por documentar la represión y violencia del gobierno. Nuestra reciente evaluación de necesidades con Cubalex ofrece una perspectiva de las realidades, desafíos y oportunidades que las personas defensoras de derechos humanos enfrentan en el contexto cubano al documentar y archivar evidencias de injusticias.",
+    "image": "CubalexBlog/1.png"
+  },
+  "/news/memo-from-havana": {
+    "path": "/news/memo-from-havana",
+    "title": "Memo from Havana: Examining the needs of documenter communities working in Cuba",
+    "description": "Cuban human rights defenders face increasing threats for documenting government repression and violence. Our recent needs assessment with Cubalex offers insight into the realities, challenges, and opportunities that human rights defenders in the Cuban context face while documenting and archiving evidence of injustice.",
+    "image": "CubalexBlog/1.png"
+  },
   "/news/memo-from-kharkiv": {
     "path": "/news/memo-from-kharkiv",
     "title": "Memo from Kharkiv: mapping the realities of Ukrainian documenter communities",

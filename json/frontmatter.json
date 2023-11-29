@@ -172,6 +172,12 @@
     "description": "In a moment of escalating conflict in Sudan, our recent needs assessment with a local human rights organization offers an insightful glimpse into the realities, challenges, and opportunities that Sudanese human rights defenders face as they document and archive evidence of injustice.",
     "image": "SudaneseSurvey/1.png"
   },
+  "/news/memo-from-mexico": {
+    "path": "/news/memo-from-mexico",
+    "title": "Memo from Mexico City: Examining the needs of documenter communities working in Mexico",
+    "description": "Mexican human rights defenders face increasing threats for documenting human rights abuses in the country. Our recent needs assessment with Data Cívica offers insight into the realities, challenges, and opportunities faced by activists, journalists, and eyewitnesses in Mexico while documenting and archiving evidence of violence and injustice.",
+    "image": "MemoFromMexico/1.png"
+  },
   "/news/pttp-resistance-in-myanmar": {
     "path": "/news/pttp-resistance-in-myanmar",
     "title": "Preserving Truth to Power - Sustaining resistance in Myanmar",

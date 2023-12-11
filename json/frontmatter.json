@@ -121,6 +121,12 @@
     "description": "The web we want",
     "image": "Why-OpenArchive.png"
   },
+  "/news/human-rights-day": {
+    "path": "/news/human-rights-day",
+    "title": "A Year in Review: Celebrating the impact of our Decentralized Archivist Communities",
+    "description": "This Human Rights Day, OpenArchive is highlighting the important work our Decentralized Archivist Communities do to fight for a more just world for at-risk groups. They work to combat electoral violence, threats to the environment, gender-based violence, arbitrary detention, and many other pressing issues.",
+    "image": "HumanRightsDay/1.png"
+  },
   "/news": {
     "path": "/news"
   },

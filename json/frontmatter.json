@@ -61,11 +61,6 @@
     "title": "Lead Mobile Developer",
     "description": "OpenArchive seeks a Lead Mobile Developer to contribute code and manage our overall technical effort, including overseeing the implementation and delivery of our Save app."
   },
-  "/jobs/mobile-designer": {
-    "path": "/jobs/mobile-designer",
-    "title": "Mobile UX/UI Interaction Designer",
-    "description": "OpenArchive seeks a Mobile UX/UI Interaction Designer who will guide the usability, design and feature improvements of our app Save."
-  },
   "/news/IraqiNetwork-partnership": {
     "path": "/news/IraqiNetwork-partnership",
     "title": "OpenArchive Partners with the Iraqi Network for Social Media",
